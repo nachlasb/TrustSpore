@@ -13,6 +13,12 @@ export default function DNATestingProcess() {
             Our advanced genetic verification uses cutting-edge sequencing technology to create 
             a unique fingerprint for your mushroom genetics.
           </p>
+          <div className="bg-secondary border border-foreground/10 rounded-lg py-3 px-4 mt-6 inline-block">
+            <p className="text-sm text-muted-foreground italic">
+              Note: DNA fingerprinting service is currently active, while blockchain integration is in development.
+              Submit your samples now to be among the first verified growers on our platform!
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8">
@@ -63,15 +69,15 @@ export default function DNATestingProcess() {
                   </p>
                   <ul className="space-y-3 text-muted-foreground">
                     <li className="flex items-start">
-                      <Shield className="text-accent mt-1 mr-3 h-5 w-5" />
+                      <Shield className="text-white mt-1 mr-3 h-5 w-5" />
                       <span>Tamper-proof distributed ledger technology</span>
                     </li>
                     <li className="flex items-start">
-                      <Fingerprint className="text-accent mt-1 mr-3 h-5 w-5" />
+                      <Fingerprint className="text-white mt-1 mr-3 h-5 w-5" />
                       <span>Unique cryptographic hash for each genetic profile</span>
                     </li>
                     <li className="flex items-start">
-                      <History className="text-accent mt-1 mr-3 h-5 w-5" />
+                      <History className="text-white mt-1 mr-3 h-5 w-5" />
                       <span>Complete history of genetic lineage across generations</span>
                     </li>
                   </ul>
@@ -79,12 +85,12 @@ export default function DNATestingProcess() {
                 <div className="bg-primary rounded-lg p-6 shadow-inner">
                   <div className="mb-4 flex justify-between items-center">
                     <div className="flex items-center">
-                      <svg className="h-5 w-5 text-accent mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="h-5 w-5 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
                       <h4 className="font-bold">DNA Verification Certificate</h4>
                     </div>
-                    <span className="bg-accent/20 text-accent text-xs px-2 py-1 rounded-full">Verified</span>
+                    <span className="bg-white/30 text-white text-xs px-2 py-1 rounded-full">Verified</span>
                   </div>
                   <div className="space-y-4 text-sm">
                     <div>

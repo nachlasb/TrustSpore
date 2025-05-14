@@ -2,7 +2,7 @@ import { Check, Dna, RefreshCw, QrCode } from "lucide-react";
 
 const features = [
   {
-    icon: <Dna className="text-accent text-2xl" />,
+    icon: <Dna className="text-white text-2xl" />,
     title: "DNA Verification",
     description: "Scientifically verify the genetic identity of your mushroom spores, ensuring authenticity and protecting rare genetics.",
     benefits: [
@@ -10,11 +10,11 @@ const features = [
       "Digital certificates of authenticity",
       "Immutable blockchain records"
     ],
-    iconClass: "bg-accent/20",
-    checkClass: "text-accent"
+    iconClass: "bg-foreground/20",
+    checkClass: "text-white"
   },
   {
-    icon: <RefreshCw className="text-primary text-2xl" />,
+    icon: <RefreshCw className="text-white text-2xl" />,
     title: "Verified Swaps",
     description: "Exchange spores with confidence through our verified swap system, backed by DNA testing and community trust.",
     benefits: [
@@ -22,11 +22,11 @@ const features = [
       "Transparent verification status",
       "Trust-building reputation system"
     ],
-    iconClass: "bg-primary/20",
-    checkClass: "text-primary"
+    iconClass: "bg-foreground/20",
+    checkClass: "text-white"
   },
   {
-    icon: <QrCode className="text-accent text-2xl" />,
+    icon: <QrCode className="text-white text-2xl" />,
     title: "Spore Traceability",
     description: "Track the complete lineage of your spores across generations with QR codes linked to blockchain records.",
     benefits: [
@@ -34,8 +34,8 @@ const features = [
       "Complete genetic history",
       "Generational authenticity tracking"
     ],
-    iconClass: "bg-accent/20",
-    checkClass: "text-accent"
+    iconClass: "bg-foreground/20",
+    checkClass: "text-white"
   }
 ];
 
