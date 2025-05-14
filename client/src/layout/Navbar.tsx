@@ -46,7 +46,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <Dna className="h-6 w-6 text-accent mr-2" />
+              <Dna className="h-6 w-6 text-white mr-2" />
               <span className="font-heading font-bold text-xl">SporeTrust</span>
             </Link>
             <div className="hidden md:ml-8 md:flex md:space-x-8">
