@@ -297,7 +297,7 @@ websockets==13.0
 Werkzeug==2.2.3
 wikipedia==1.4.0
 win32-setctime==1.1.0
-wordcloud @ file:///C:/Users/15095/Documents/DataPsy/wordcloud-1.8.1-cp311-cp311-win_amd64.whl
+wordcloud==1.8.1
 wrapt==1.16.0
 wsproto==1.2.0
 XlsxWriter==3.0.9
