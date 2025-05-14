@@ -45,10 +45,16 @@ export default function AppFeatures() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">Advanced Genetic Trust Features</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            SporeTrust combines cutting-edge blockchain technology with genetic science to ensure the 
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
+            SporeTrust combines cutting-edge DNA verification with upcoming blockchain technology to ensure the 
             authenticity of your mushroom genetics.
           </p>
+          <div className="bg-primary p-3 rounded-lg inline-block mb-6">
+            <p className="text-sm text-muted-foreground">
+              <span className="font-bold text-white">Phase 1 (Now):</span> DNA Fingerprinting &nbsp;&nbsp;|&nbsp;&nbsp;
+              <span className="font-bold text-white">Phase 2 (Coming Soon):</span> Blockchain Integration
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
