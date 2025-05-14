@@ -15,8 +15,8 @@ export default function DNATestingProcess() {
           </p>
           <div className="bg-secondary border border-foreground/10 rounded-lg py-3 px-4 mt-6 inline-block">
             <p className="text-sm text-muted-foreground italic">
-              Note: DNA fingerprinting service is currently active, while blockchain integration is in development.
-              Submit your samples now to be among the first verified growers on our platform!
+              DNA fingerprinting service is fully operational! Submit your samples now to add your 
+              genetics to our secure database and become a verified grower on our platform.
             </p>
           </div>
         </div>
@@ -62,19 +62,19 @@ export default function DNATestingProcess() {
             <div className="bg-secondary p-8 rounded-xl shadow-lg">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <h3 className="text-xl font-bold mb-3 font-heading">3. Blockchain Certification</h3>
+                  <h3 className="text-xl font-bold mb-3 font-heading">3. Database Certification</h3>
                   <p className="text-muted-foreground mb-4">
-                    The genetic results are processed and recorded on our secure blockchain, creating an 
-                    immutable record of your mushroom's DNA profile.
+                    The genetic results are processed and recorded in our secure database, creating a 
+                    reliable record of your mushroom's DNA profile.
                   </p>
                   <ul className="space-y-3 text-muted-foreground">
                     <li className="flex items-start">
                       <Shield className="text-white mt-1 mr-3 h-5 w-5" />
-                      <span>Tamper-proof distributed ledger technology</span>
+                      <span>Secure PostgreSQL database technology</span>
                     </li>
                     <li className="flex items-start">
                       <Fingerprint className="text-white mt-1 mr-3 h-5 w-5" />
-                      <span>Unique cryptographic hash for each genetic profile</span>
+                      <span>Unique identifier for each genetic profile</span>
                     </li>
                     <li className="flex items-start">
                       <History className="text-white mt-1 mr-3 h-5 w-5" />
