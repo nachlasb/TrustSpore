@@ -44,7 +44,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <Dna className="h-6 w-6 text-accent mr-2" />
+              <Dna className="h-6 w-6 text-white mr-2" />
               <span className="font-heading font-bold text-xl">SporeTrust</span>
             </div>
             <p className="text-muted-foreground mb-6">
@@ -107,15 +107,15 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
-                <Mail className="h-5 w-5 text-accent mt-1 mr-2" />
-                <span className="text-muted-foreground">hi@sporetrust.com</span>
+                <Mail className="h-5 w-5 text-white mt-1 mr-2" />
+                <span className="text-muted-foreground">ben@sporetrust.com</span>
               </li>
               <li className="flex items-start">
-                <Phone className="h-5 w-5 text-accent mt-1 mr-2" />
+                <Phone className="h-5 w-5 text-white mt-1 mr-2" />
                 <span className="text-muted-foreground">+1 (208) 450-3840</span>
               </li>
               <li className="flex items-start">
-                <MapPin className="h-5 w-5 text-accent mt-1 mr-2" />
+                <MapPin className="h-5 w-5 text-white mt-1 mr-2" />
                 <span className="text-muted-foreground">
                   123 Mycelium Way<br />Spokane, WA 99202
                 </span>
@@ -127,7 +127,7 @@ export default function Footer() {
         <div className="border-t border-neutral-dark pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} SporeTrust. All rights reserved.
+              &copy; {new Date().getFullYear()} SporeTrust. All rights reserved. You are great today :)
             </p>
             <div className="flex flex-wrap space-x-6">
               {policyLinks.map((link, index) => (
