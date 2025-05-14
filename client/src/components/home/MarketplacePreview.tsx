@@ -80,16 +80,16 @@ export default function MarketplacePreview() {
             </div>
           </div>
           <div>
-            <select className="block w-full py-3 px-3 border border-neutral-dark rounded-lg focus:ring-accent focus:border-accent bg-primary text-foreground appearance-none">
-              <option value="" disabled selected>Filter by status</option>
+            <select className="block w-full py-3 px-3 border border-neutral-dark rounded-lg focus:ring-accent focus:border-accent bg-primary text-foreground appearance-none" defaultValue="">
+              <option value="" disabled>Filter by status</option>
               <option value="verified">Verified Only</option>
               <option value="nonverified">All Listings</option>
               <option value="new">Newly Added</option>
             </select>
           </div>
           <div>
-            <select className="block w-full py-3 px-3 border border-neutral-dark rounded-lg focus:ring-accent focus:border-accent bg-primary text-foreground appearance-none">
-              <option value="" disabled selected>Sort by</option>
+            <select className="block w-full py-3 px-3 border border-neutral-dark rounded-lg focus:ring-accent focus:border-accent bg-primary text-foreground appearance-none" defaultValue="">
+              <option value="" disabled>Sort by</option>
               <option value="trust">Highest Trust Score</option>
               <option value="recent">Recently Added</option>
               <option value="variety">Variety Name</option>

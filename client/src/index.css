@@ -9,15 +9,15 @@
   --card-foreground: 0 0% 98%;
   --popover: 240 10% 3.9%;
   --popover-foreground: 0 0% 98%;
-  --primary: 207 90% 54%; /* Soft blue as primary */
+  --primary: 207 35% 30%; /* More subtle blue as primary */
   --primary-foreground: 211 100% 99%;
   --secondary: 240 3.7% 15.9%;
   --secondary-foreground: 0 0% 98%;
   --muted: 240 3.7% 15.9%;
   --muted-foreground: 240 5% 64.9%;
-  --accent: 174 87% 29%; /* Teal as accent */
+  --accent: 174 40% 20%; /* More subtle teal as accent */
   --accent-foreground: 0 0% 98%;
-  --accent-light: 173 80% 40%;
+  --accent-light: 173 35% 30%;
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 0 0% 98%;
   --border: 240 3.7% 15.9%;
@@ -26,18 +26,18 @@
   --radius: 0.5rem;
   
   /* Colors for charts */
-  --chart-1: 207 90% 54%;
-  --chart-2: 174 87% 29%;
-  --chart-3: 267 83% 60%;
-  --chart-4: 9 94% 60%;
-  --chart-5: 36 94% 57%;
+  --chart-1: 207 35% 30%;
+  --chart-2: 174 40% 20%;
+  --chart-3: 267 30% 40%;
+  --chart-4: 9 40% 40%;
+  --chart-5: 36 40% 37%;
   
   /* Colors for sidebar */
   --sidebar-background: 240 10% 3.9%;
   --sidebar-foreground: 0 0% 98%;
-  --sidebar-primary: 207 90% 54%;
+  --sidebar-primary: 207 35% 30%;
   --sidebar-primary-foreground: 211 100% 99%;
-  --sidebar-accent: 174 87% 29%;
+  --sidebar-accent: 174 40% 20%;
   --sidebar-accent-foreground: 0 0% 98%;
   --sidebar-border: 240 3.7% 15.9%;
   --sidebar-ring: 240 4.9% 83.9%;
