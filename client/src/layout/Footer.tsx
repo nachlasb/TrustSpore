@@ -108,16 +108,16 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-accent mt-1 mr-2" />
-                <span className="text-muted-foreground">support@sporetrust.com</span>
+                <span className="text-muted-foreground">hi@sporetrust.com</span>
               </li>
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-accent mt-1 mr-2" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+1 (208) 450-3840</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-accent mt-1 mr-2" />
                 <span className="text-muted-foreground">
-                  123 Mycelium Way<br />Portland, OR 97201
+                  123 Mycelium Way<br />Spokane, WA 99202
                 </span>
               </li>
             </ul>
