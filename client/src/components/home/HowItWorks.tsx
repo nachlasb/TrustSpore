@@ -1,5 +1,6 @@
-import { Check, XCircle } from "lucide-react";
+import { Check, XCircle, Info } from "lucide-react";
 import { labImage } from "@/lib/images";
+import { Button } from "@/components/ui/button";
 
 const steps = [
   {
@@ -35,10 +36,33 @@ export default function HowItWorks() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">How SporeTrust Works</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our blockchain-powered platform creates trust and transparency in the mushroom growing 
-            community through a simple verification process.
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-5">
+            Our upcoming blockchain-powered platform will create trust and transparency in the mushroom growing 
+            community through a simple verification process. DNA testing is already available.
           </p>
+          
+          <div className="flex justify-center mb-6">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 text-sm text-white">
+              <span className="h-2 w-2 rounded-full bg-green-500 mr-2"></span>
+              DNA Testing Active
+              <span className="mx-3">|</span>
+              <span className="h-2 w-2 rounded-full bg-yellow-500 mr-2"></span>
+              Blockchain In Development
+            </div>
+          </div>
+          
+          <div className="mx-auto max-w-lg p-4 bg-secondary rounded-lg text-center mb-8">
+            <form className="flex flex-col sm:flex-row gap-2">
+              <input 
+                type="email" 
+                placeholder="Enter email for launch updates" 
+                className="flex-grow px-4 py-2 rounded-lg bg-primary border border-neutral-dark focus:ring-1 focus:ring-white"
+              />
+              <Button className="bg-white hover:bg-gray-200 text-primary px-4 py-2">
+                Get Updates
+              </Button>
+            </form>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
