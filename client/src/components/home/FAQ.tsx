@@ -16,7 +16,7 @@ const faqItems = [
   },
   {
     question: "How much does DNA verification cost?",
-    answer: "DNA verification typically costs between $30-$60 per sample, depending on the testing complexity. The results are permanent and transferable to future spore generations, making it a one-time investment for genetic verification. Members with high trust scores receive discounts on testing services."
+    answer: "DNA verification typically costs between $50-$100 per sample, depending on the testing complexity. The results are permanent and transferable to future spore generations, making it a one-time investment for genetic verification. Members with high trust scores receive discounts on testing services."
   },
   {
     question: "How does blockchain ensure the authenticity of my spores?",

@@ -22,7 +22,7 @@ export default function HeroSection() {
               Track the Genetic Lineage of Your Gourmet Mushrooms
             </h1>
             <p className="text-lg md:text-xl mb-8 text-muted-foreground max-w-2xl">
-              Secure, verifiable spore exchanges between growers with DNA verification and complete traceability. 
+              Secure, verifiable spore exchanges between growers with DNA verification and total traceability. 
               Build trust in your mushroom cultivation community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
