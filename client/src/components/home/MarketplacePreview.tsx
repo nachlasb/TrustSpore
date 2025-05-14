@@ -172,26 +172,14 @@ export default function MarketplacePreview() {
         <div className="mt-20 bg-gradient-to-r from-primary to-accent-dark rounded-xl p-8 shadow-lg">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <div className="inline-block bg-white/10 px-3 py-1 rounded-md mb-2">
-                <p className="text-white text-sm">Coming Soon</p>
-              </div>
-              <h3 className="text-2xl font-bold mb-4 font-heading">Join Our Early Access Program</h3>
-              <p className="text-muted-foreground mb-4">
-                Submit your spore samples for DNA testing now and be among the first verified 
-                growers when our full marketplace launches.
+              <h3 className="text-2xl font-bold mb-4 font-heading">Start Trading in Our Marketplace</h3>
+              <p className="text-muted-foreground mb-6">
+                Join our community of mushroom enthusiasts and start exchanging verified spores today. 
+                Build your reputation and access rare genetics.
               </p>
-              <div className="mb-6 bg-secondary p-4 rounded-lg">
-                <form className="flex flex-col gap-3">
-                  <input 
-                    type="email" 
-                    placeholder="Your email address" 
-                    className="w-full px-4 py-2 rounded-lg bg-primary border border-neutral-dark"
-                  />
-                  <Button className="bg-white hover:bg-gray-200 text-primary px-6 py-3 font-medium">
-                    Reserve Your Spot
-                  </Button>
-                </form>
-              </div>
+              <Button className="bg-accent hover:bg-accent-light px-6 py-3 rounded-lg font-medium text-white shadow-lg transition-all h-auto">
+                Create Your Account
+              </Button>
             </div>
             <div className="flex justify-center">
               <img 
