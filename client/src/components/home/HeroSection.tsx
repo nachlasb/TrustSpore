@@ -19,7 +19,7 @@ export default function HeroSection() {
           <div className="max-w-3xl">
             <p className="text-accent-light font-medium mb-4 font-heading">Database-Powered Authenticity</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-              Track the Genetic Lineage of Your Gourmet Mushrooms
+              TEST Track the Genetic Lineage of Your Gourmet Mushrooms
             </h1>
             <p className="text-lg md:text-xl mb-8 text-muted-foreground max-w-2xl">
               Secure, verifiable spore exchanges between growers with DNA verification and absolute traceability. 
