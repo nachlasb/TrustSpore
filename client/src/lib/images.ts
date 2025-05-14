@@ -3,7 +3,7 @@ export const heroBackground = "https://pixabay.com/get/g8247c0e983dc3a4ce9b15bd6
 
 // How it works section
 //export const labImage = "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600";
-export const labImage = "/images/labimage.jpg"; // Path to the image in the public folder
+export const labImage = "/client/public/images/labimage.jpg"; // Path to the image in the public folder
 
 
 // DNA testing process section
