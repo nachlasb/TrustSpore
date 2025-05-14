@@ -3,8 +3,9 @@ export const heroBackground = "https://pixabay.com/get/g8247c0e983dc3a4ce9b15bd6
 
 // How it works section
 //export const labImage = "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600";
-export const labImage = "/client/public/images/labimage.jpg"; // Path to the image in the public folder
-
+export const labImage = "https://endeavordna.com/wp-content/uploads/2022/08/AdobeStock_450842160-2048x1536.jpeg"; 
+//try adding this? 
+//    &auto=format&fit=crop&w=800&h=600
 
 // DNA testing process section
 export const sporeCollectionImage = "https://www.milkwood.net/wp-content/uploads/2014/01/screen-shot-2014-01-01-at-4-09-35-pm.png";
