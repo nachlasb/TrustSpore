@@ -14,8 +14,8 @@ const steps = [
   },
   {
     number: 3,
-    title: "Blockchain Certification",
-    description: "Your verification results are securely recorded on the blockchain, creating an immutable record of authenticity."
+    title: "Database Certification",
+    description: "Your verification results are securely recorded in our database, creating a reliable record of authenticity."
   },
   {
     number: 4,
@@ -36,7 +36,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">How SporeTrust Works</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our blockchain-powered platform creates trust and transparency in the mushroom growing 
+            Our database-powered platform creates trust and transparency in the mushroom growing 
             community through a simple verification process.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function HowItWorks() {
                   </li>
                   <li className="flex items-start">
                     <Check className="text-green-500 mt-1 mr-2 h-4 w-4" />
-                    Blockchain verified
+                    Database verified
                   </li>
                   <li className="flex items-start">
                     <Check className="text-green-500 mt-1 mr-2 h-4 w-4" />

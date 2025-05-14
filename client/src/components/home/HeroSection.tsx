@@ -17,12 +17,12 @@ export default function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 absolute inset-0 z-20">
         <div className="flex flex-col justify-center items-start h-full py-12 md:py-16 lg:py-20">
           <div className="max-w-3xl">
-            <p className="text-accent-light font-medium mb-4 font-heading">Blockchain-Powered Authenticity</p>
+            <p className="text-accent-light font-medium mb-4 font-heading">Database-Powered Authenticity</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
               Track the Genetic Lineage of Your Gourmet Mushrooms
             </h1>
             <p className="text-lg md:text-xl mb-8 text-muted-foreground max-w-2xl">
-              Secure, verifiable spore exchanges between growers with DNA verification and blockchain traceability. 
+              Secure, verifiable spore exchanges between growers with DNA verification and complete traceability. 
               Build trust in your mushroom cultivation community.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

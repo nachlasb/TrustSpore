@@ -8,7 +8,7 @@ const features = [
     benefits: [
       "Genetic fingerprinting technology",
       "Digital certificates of authenticity",
-      "Immutable blockchain records"
+      "Secure database records"
     ],
     iconClass: "bg-foreground/20",
     checkClass: "text-white"
@@ -28,7 +28,7 @@ const features = [
   {
     icon: <QrCode className="text-white text-2xl" />,
     title: "Spore Traceability",
-    description: "Track the complete lineage of your spores across generations with QR codes linked to blockchain records.",
+    description: "Track the complete lineage of your spores across generations with QR codes linked to our secure database records.",
     benefits: [
       "QR code generation and scanning",
       "Complete genetic history",
@@ -46,8 +46,8 @@ export default function AppFeatures() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">Advanced Genetic Trust Features</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            SporeTrust combines cutting-edge blockchain technology with genetic science to ensure the 
-            authenticity of your mushroom genetics.
+            SporeTrust combines cutting-edge database technology with genetic science to ensure the 
+            authenticity and traceability of your mushroom genetics.
           </p>
         </div>
 
