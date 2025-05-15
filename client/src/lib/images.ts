@@ -1,5 +1,5 @@
 // Hero section background
-export const heroBackground = "https://pixabay.com/get/g8247c0e983dc3a4ce9b15bd6abe3992fc51b6ff38ad55a5a3462b971d44fbd973722b774df5f45f0bcee348956c6d0b83cd6c1ec400ca53a13134a091bf93bad_1280.jpg";
+export const heroBackground = "https://www.nonguiltypleasures.com/wp-content/uploads/2022/11/pink-oyster-mushrooms-close-up.jpg";
 
 // How it works section
 //export const labImage = "https://images.unsplash.com/photo-1579154204601-01588f351e67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600";
